@@ -9,7 +9,7 @@ services:
       POSTGRES_PASSWORD: postgres 
   admin:
       image: adminer
-      restart: always
+      #restart: always
       links: 
           - pg:db
       ports: 
